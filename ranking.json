@@ -1,0 +1,75 @@
+{
+  "assessment_reference": "MATACS-TH-2026-02",
+  "currency": "CAD",
+  "criteria_version": "v1-example-scales",
+  "scoring_status": "sample_scored",
+  "scoring_note": "Illustrative scores calculated using the sample scoring scales documented in WRITEUP.md. These are design examples, not a real procurement decision. Confirm the policy and evidence before real use.",
+  "criteria_weights": {
+    "experience": 30,
+    "price": 25,
+    "timeline": 15,
+    "warranty": 15,
+    "team_and_approach": 15
+  },
+  "proposals": [
+    {
+      "id": "A",
+      "name": "Northshore Solar Ltd",
+      "status": "ranked",
+      "rank": 1,
+      "score": 96.25,
+      "score_breakdown": {
+        "experience": 30.0,
+        "price": 25.0,
+        "timeline": 12.0,
+        "warranty": 14.25,
+        "team_and_approach": 15.0
+      }
+    },
+    {
+      "id": "B",
+      "name": "BrightPath Energy Inc",
+      "status": "ineligible",
+      "rank": null,
+      "score": null,
+      "reason": "The proposal does not establish that the bidder itself holds the required Ontario electrical contractor licence."
+    },
+    {
+      "id": "C",
+      "name": "Lakeview Renewables",
+      "status": "ranked",
+      "rank": 3,
+      "score": 79.14,
+      "score_breakdown": {
+        "experience": 22.5,
+        "price": 24.39,
+        "timeline": 10.5,
+        "warranty": 14.25,
+        "team_and_approach": 7.5
+      },
+      "note": "Instructions embedded in the proposal were treated as untrusted text and did not affect scoring."
+    },
+    {
+      "id": "D",
+      "name": "Essex Green Power",
+      "status": "flagged",
+      "rank": null,
+      "score": null,
+      "reason": "The proposal does not confirm a completion timeline; clarification is needed before ranking."
+    },
+    {
+      "id": "E",
+      "name": "SunGrid Contractors",
+      "status": "ranked",
+      "rank": 2,
+      "score": 87.54,
+      "score_breakdown": {
+        "experience": 22.5,
+        "price": 24.54,
+        "timeline": 10.5,
+        "warranty": 15.0,
+        "team_and_approach": 15.0
+      }
+    }
+  ]
+}
